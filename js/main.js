@@ -47,15 +47,15 @@ document.getElementById("btngioithua").onclick = tinhtong;
 function taothediv() {
     var div = '';
     var xdiv = '';
-    for (var i = 1; i <= 10; i++) {
-        if (div = i % 2 == 0){
-            <div class='bg-danger text-white p-2'>Div chẵn</div>
+    for(var i = 1; i<=10 ; i++){
+        if(i % 2 == 0){
+            div =  '<div class="bg-danger text-white p-2">Div chẵn</div>'
+
         }else{
-            <div class='bg-primary text-white  p-2'>Div lẻ </div>
+            div = '<div class="bg-primary text-white p-2">Div lẽ</div>'
         }
-            xdiv += div;
+        xdiv += div;
         document.getElementById("txtResulttaothe").innerHTML = xdiv;
     }
-
 }
 document.getElementById("btntaothe").onclick = taothediv;
