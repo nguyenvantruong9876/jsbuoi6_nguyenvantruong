@@ -29,7 +29,7 @@ function tinhtong() {
 document.getElementById("btntinh").onclick = tinhtong;
 
 // bài 3 Tính Giai thừa
-function tinhtong() {
+function giaithua() {
     var giaithua = document.getElementById("nhapgiaithua").value;
     var ketqua = 1
 
@@ -40,7 +40,7 @@ function tinhtong() {
     }
 
 }
-document.getElementById("btngioithua").onclick = tinhtong;
+document.getElementById("btngioithua").onclick = giaithua;
 
 
 // bài 4 Tạo thẻ div
